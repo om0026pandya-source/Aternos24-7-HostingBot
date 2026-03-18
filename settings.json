@@ -3,7 +3,7 @@
   "bot-account": {
     "username": "imgonnacream",
     "password": "",
-    "type": "online"
+    "type": "always online"
   },
   "server": {
     "ip": "DARKSMP-rUzJ.aternos.me",
@@ -38,8 +38,8 @@
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 120000
+    "auto-reconnect-delay": 1,
+    "max-reconnect-delay": 2
   },
   "movement": {
     "enabled": true,
@@ -60,7 +60,7 @@
   "modules": {
     "avoidMobs": true,
     "combat": true,
-    "beds": false,
+    "beds": true,
     "chat": true,
     "console-commands": true
   },
